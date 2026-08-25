@@ -21,7 +21,11 @@ describe('portfolio preferences', () => {
   it('renders portfolio content from the static data source', () => {
     renderApp();
     expect(screen.getByRole('heading', { level: 1 })).toBeInTheDocument();
-    expect(screen.getAllByRole('article')).toHaveLength(7);
+    expect(screen.getByText('Ahmet Sabri Güven')).toBeInTheDocument();
+    expect(screen.getByText('Unity Game Engine')).toBeInTheDocument();
+    expect(screen.getByText('Twitter Clone REST API')).toBeInTheDocument();
+    expect(screen.getByText('Kütüphane Sistemi')).toBeInTheDocument();
+    expect(screen.queryByText('Kişisel Blog')).not.toBeInTheDocument();
   });
 
   it('switches and persists the theme', async () => {
@@ -34,7 +38,7 @@ describe('portfolio preferences', () => {
   it('switches language without an i18n package', async () => {
     renderApp();
     fireEvent.click(screen.getByRole('button', { name: /english/i }));
-    expect(await screen.findByText('Creative thinker')).toBeInTheDocument();
+    expect(await screen.findByText('A solution-oriented')).toBeInTheDocument();
     expect(document.documentElement).toHaveAttribute('lang', 'en');
   });
 });

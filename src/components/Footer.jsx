@@ -8,7 +8,6 @@ export default function Footer({ content, links }) {
             <span aria-hidden="true">👉</span>{content.email}
           </a>
           <nav className="footer-links" aria-label={content.socialLabel}>
-            <a className="footer-blog" href={links.blog} target="_blank" rel="noreferrer">{content.blog}</a>
             <a className="footer-github" href={links.github} target="_blank" rel="noreferrer">GitHub</a>
             <a className="footer-linkedin" href={links.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>
           </nav>

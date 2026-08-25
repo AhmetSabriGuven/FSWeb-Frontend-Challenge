@@ -14,28 +14,47 @@
       "primaryNavigation": "Ana navigasyon"
     },
     "hero": {
-      "name": "Ahmet Sabri",
-      "title": ["Yaratıcı düşünür", "Minimalizm tutkunu"],
-      "intro": "Merhaba, ben Ahmet Sabri. Sağlam, ölçeklenebilir ve erişilebilir frontend ürünleri geliştiriyorum. Güçlü kullanıcı deneyimlerini temiz kodla buluşturan bir geliştirici arıyorsanız, tanışalım.",
+      "name": "Ahmet Sabri Güven",
+      "title": ["Çözüm odaklı bir", "yazılım geliştirici"],
+      "intro": "Merhaba, ben Ahmet Sabri Güven. Sağlam, ölçeklenebilir ve erişilebilir yazılım ürünleri geliştiriyorum. Güçlü kullanıcı deneyimlerini temiz kodla buluşturan bir geliştirici arıyorsanız, tanışalım.",
       "hire": "İletişim",
       "imageAlt": "Dizüstü bilgisayarıyla çalışan bir yazılımcı"
     },
     "skills": {
       "title": "Yetenekler",
       "items": [
-        { "name": "JavaScript", "description": "Modern ES özellikleri, asenkron veri akışı ve sürdürülebilir uygulama mimarileri." },
-        { "name": "React.js", "description": "Yeniden kullanılabilir bileşenler, Context API, custom hook’lar ve test edilebilir arayüzler." },
-        { "name": "Node.js", "description": "REST servisleri, araç geliştirme ve frontend ihtiyaçlarını destekleyen hafif backend çözümleri." }
+        { "name": "JavaScript", "description": "Modern ve etkileşimli web uygulamaları geliştirmek için kullandığım temel programlama dili." },
+        { "name": "React.js", "description": "Yeniden kullanılabilir bileşenlerle hızlı ve ölçeklenebilir kullanıcı arayüzleri geliştiriyorum." },
+        { "name": "Hooks", "description": "React bileşenlerinde state, yaşam döngüsü ve yan etkileri sade biçimde yönetiyorum." },
+        { "name": "Context API", "description": "Tema, dil ve ortak uygulama verilerini bileşenler arasında merkezi olarak paylaştırıyorum." },
+        { "name": "Redux", "description": "Karmaşık uygulama durumlarını öngörülebilir ve merkezi bir veri akışıyla yönetiyorum." },
+        { "name": "Axios", "description": "REST servisleriyle güvenilir HTTP iletişimi ve hata yönetimi gerçekleştiriyorum." },
+        { "name": "HTML", "description": "Semantik, erişilebilir ve arama motoru dostu web yapıları oluşturuyorum." },
+        { "name": "CSS", "description": "Responsive, erişilebilir ve tasarımla uyumlu kullanıcı arayüzleri hazırlıyorum." },
+        { "name": "Tailwind CSS", "description": "Utility-first yaklaşımıyla tutarlı ve hızlı biçimde responsive arayüzler geliştiriyorum." },
+        { "name": "C", "description": "Bellek yönetimi ve temel sistem programlama kavramlarına hâkimim." },
+        { "name": "C++", "description": "Nesne yönelimli ve performans odaklı uygulama geliştirme deneyimine sahibim." },
+        { "name": "C#", "description": ".NET ve Unity ekosistemlerinde nesne yönelimli uygulamalar geliştiriyorum." },
+        { "name": "Java", "description": "Güçlü tip sistemiyle sürdürülebilir backend ve konsol uygulamaları geliştiriyorum." },
+        { "name": "OOP", "description": "Encapsulation, inheritance, abstraction ve polymorphism ilkelerini uyguluyorum." },
+        { "name": "Maven", "description": "Java projelerinde bağımlılık, derleme ve yaşam döngüsü yönetimi sağlıyorum." },
+        { "name": "Spring Boot", "description": "Katmanlı mimariye sahip güvenli ve ölçeklenebilir REST API’ler geliştiriyorum." },
+        { "name": "SQL", "description": "İlişkisel veriler için etkili sorgular ve sürdürülebilir veri modelleri tasarlıyorum." },
+        { "name": "PostgreSQL", "description": "Güvenilir ve ölçeklenebilir ilişkisel veritabanı çözümleri geliştiriyorum." },
+        { "name": "MSSQL", "description": "Microsoft SQL Server üzerinde sorgu ve ilişkisel veri yönetimi yapıyorum." },
+        { "name": "Git", "description": "Sürüm kontrolü, branch yönetimi ve ekip çalışması süreçlerini etkin kullanıyorum." },
+        { "name": "Unity Game Engine", "description": "C# ile oyun mekaniği, sahne yönetimi ve etkileşimli deneyimler geliştiriyorum." },
+        { "name": "Node.js", "description": "REST servisleri ve frontend ürünlerini destekleyen hafif backend çözümleri geliştiriyorum." }
       ]
     },
     "profile": {
       "title": "Profil",
       "subtitle": "Profil",
       "facts": [
-        { "label": "Odak", "value": "Frontend Engineering" },
+        { "label": "Odak", "value": "Bilgisayar Mühendisliği" },
         { "label": "Konum", "value": "Türkiye" },
-        { "label": "Eğitim", "value": "Workintech Frontend Programı" },
-        { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+        { "label": "Eğitim", "value": "Başkent Üniversitesi Bilgisayar Mühendisliği" },
+        { "label": "Tercih Ettiği Rol", "value": "Frontend, Backend, UI" }
       ],
       "aboutTitle": "Hakkımda",
       "about": [
@@ -58,35 +77,33 @@
           "site": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge"
         },
         {
-          "name": "Random Jokes",
-          "description": "Uzak bir API’den veri alan, yüklenme ve hata durumlarını yöneten responsive React uygulaması.",
-          "stack": ["react", "redux", "axios"],
-          "image": "project-jokes",
-          "imageAlt": "Random Jokes projesinin ekran görüntüsü",
-          "github": "https://github.com/AhmetSabriGuven",
-          "site": "https://github.com/AhmetSabriGuven"
+          "name": "Twitter Clone REST API",
+          "description": "Tweet, yorum, beğeni ve retweet akışlarını yöneten; Spring Security, PostgreSQL ve katmanlı mimariyle geliştirilen REST API.",
+          "stack": ["java", "spring boot", "postgresql"],
+          "image": "project-twitter",
+          "themeAwareImage": false,
+          "imageAlt": "Twitter Clone REST API GitHub proje kartı",
+          "github": "https://github.com/AhmetSabriGuven/FSWEB-TW-Challenge"
         },
         {
-          "name": "Journey",
-          "description": "Modern kart yapıları ve tekrar kullanılabilir UI bileşenleriyle oluşturulan ürün tanıtım arayüzü.",
-          "stack": ["react", "router", "css"],
-          "image": "project-journey",
-          "imageAlt": "Journey projesinin ekran görüntüsü",
-          "github": "https://github.com/AhmetSabriGuven",
-          "site": "https://github.com/AhmetSabriGuven"
+          "name": "Kütüphane Sistemi",
+          "description": "Kitap yönetimi, ödünç alma ve iade süreçlerini kapsayan; nesne yönelimli tasarım ilkeleriyle geliştirilen Java konsol uygulaması.",
+          "stack": ["java", "oop", "collections"],
+          "image": "project-library",
+          "themeAwareImage": false,
+          "imageAlt": "Kütüphane Sistemi GitHub proje kartı",
+          "github": "https://github.com/AhmetSabriGuven/Kutuphane-Sistemi"
         }
       ]
     },
     "footer": {
       "title": "Bir sonraki ürününüzde birlikte çalışalım.",
-      "email": "hello@ahmetsabri.dev",
-      "blog": "Kişisel Blog",
+      "email": "guvenahmetsabri@gmail.com",
       "socialLabel": "Sosyal bağlantılar"
     },
     "links": {
       "github": "https://github.com/AhmetSabriGuven",
-      "linkedin": "https://www.linkedin.com",
-      "blog": "https://github.com/AhmetSabriGuven"
+      "linkedin": "https://www.linkedin.com/in/ahmetsabriguven/"
     },
     "feedback": { "offline": "Uzak servis kullanılamıyor; portfolyo yerel verilerle çalışmaya devam ediyor." }
   },
@@ -105,28 +122,47 @@
       "primaryNavigation": "Primary navigation"
     },
     "hero": {
-      "name": "Ahmet Sabri",
-      "title": ["Creative thinker", "Minimalism lover"],
-      "intro": "Hi, I’m Ahmet Sabri. I craft solid, scalable and accessible frontend products. If you are looking for a developer who combines clean code with thoughtful user experiences, let’s work together.",
+      "name": "Ahmet Sabri Güven",
+      "title": ["A solution-oriented", "software developer"],
+      "intro": "Hi, I’m Ahmet Sabri Güven. I craft solid, scalable and accessible software products. If you are looking for a developer who combines clean code with thoughtful user experiences, let’s work together.",
       "hire": "Hire me",
       "imageAlt": "A developer working on a laptop"
     },
     "skills": {
       "title": "Skills",
       "items": [
-        { "name": "JavaScript", "description": "Modern ES features, asynchronous data flows and maintainable application architecture." },
-        { "name": "React.js", "description": "Reusable components, Context API, custom hooks and interfaces designed for testing." },
-        { "name": "Node.js", "description": "REST services, developer tooling and lightweight backend solutions supporting frontend products." }
+        { "name": "JavaScript", "description": "My core language for building modern and interactive web applications." },
+        { "name": "React.js", "description": "I build fast, scalable interfaces with reusable components." },
+        { "name": "Hooks", "description": "I manage state, lifecycle behavior and side effects cleanly in React components." },
+        { "name": "Context API", "description": "I share themes, language and common application data through a central provider." },
+        { "name": "Redux", "description": "I manage complex application state with predictable, centralized data flows." },
+        { "name": "Axios", "description": "I handle reliable HTTP communication and errors when working with REST services." },
+        { "name": "HTML", "description": "I create semantic, accessible and search-friendly web structures." },
+        { "name": "CSS", "description": "I craft responsive, accessible interfaces that accurately follow the design." },
+        { "name": "Tailwind CSS", "description": "I rapidly build consistent responsive interfaces with a utility-first workflow." },
+        { "name": "C", "description": "I understand memory management and fundamental systems programming concepts." },
+        { "name": "C++", "description": "I have experience building object-oriented, performance-focused applications." },
+        { "name": "C#", "description": "I develop object-oriented applications within the .NET and Unity ecosystems." },
+        { "name": "Java", "description": "I build maintainable backend and console applications with a strong type system." },
+        { "name": "OOP", "description": "I apply encapsulation, inheritance, abstraction and polymorphism principles." },
+        { "name": "Maven", "description": "I manage dependencies, builds and project lifecycles in Java applications." },
+        { "name": "Spring Boot", "description": "I build secure, scalable REST APIs with layered architecture." },
+        { "name": "SQL", "description": "I design efficient queries and maintainable models for relational data." },
+        { "name": "PostgreSQL", "description": "I develop reliable and scalable relational database solutions." },
+        { "name": "MSSQL", "description": "I write queries and manage relational data with Microsoft SQL Server." },
+        { "name": "Git", "description": "I use version control, branching and collaborative development workflows effectively." },
+        { "name": "Unity Game Engine", "description": "I build game mechanics, scenes and interactive experiences with C#." },
+        { "name": "Node.js", "description": "I build REST services and lightweight backend solutions supporting frontend products." }
       ]
     },
     "profile": {
       "title": "Profile",
       "subtitle": "Profile",
       "facts": [
-        { "label": "Focus", "value": "Frontend Engineering" },
+        { "label": "Focus", "value": "Computer Engineering" },
         { "label": "Location", "value": "Türkiye" },
-        { "label": "Education", "value": "Workintech Frontend Program" },
-        { "label": "Preferred Role", "value": "Frontend, UI" }
+        { "label": "Education", "value": "Başkent University, Computer Engineering" },
+        { "label": "Preferred Role", "value": "Frontend, Backend, UI" }
       ],
       "aboutTitle": "About Me",
       "about": [
@@ -149,35 +185,33 @@
           "site": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge"
         },
         {
-          "name": "Random Jokes",
-          "description": "A responsive React application that fetches remote data and handles loading and error states.",
-          "stack": ["react", "redux", "axios"],
-          "image": "project-jokes",
-          "imageAlt": "Screenshot of the Random Jokes project",
-          "github": "https://github.com/AhmetSabriGuven",
-          "site": "https://github.com/AhmetSabriGuven"
+          "name": "Twitter Clone REST API",
+          "description": "A layered REST API for tweets, comments, likes and retweets, built with Spring Security and PostgreSQL.",
+          "stack": ["java", "spring boot", "postgresql"],
+          "image": "project-twitter",
+          "themeAwareImage": false,
+          "imageAlt": "GitHub project card for Twitter Clone REST API",
+          "github": "https://github.com/AhmetSabriGuven/FSWEB-TW-Challenge"
         },
         {
-          "name": "Journey",
-          "description": "A product showcase interface composed with modern cards and reusable UI components.",
-          "stack": ["react", "router", "css"],
-          "image": "project-journey",
-          "imageAlt": "Screenshot of the Journey project",
-          "github": "https://github.com/AhmetSabriGuven",
-          "site": "https://github.com/AhmetSabriGuven"
+          "name": "Library System",
+          "description": "A Java console application for catalog management, borrowing and returns, designed around object-oriented principles.",
+          "stack": ["java", "oop", "collections"],
+          "image": "project-library",
+          "themeAwareImage": false,
+          "imageAlt": "GitHub project card for the Library System",
+          "github": "https://github.com/AhmetSabriGuven/Kutuphane-Sistemi"
         }
       ]
     },
     "footer": {
       "title": "Let’s work together on your next product.",
-      "email": "hello@ahmetsabri.dev",
-      "blog": "Personal Blog",
+      "email": "guvenahmetsabri@gmail.com",
       "socialLabel": "Social links"
     },
     "links": {
       "github": "https://github.com/AhmetSabriGuven",
-      "linkedin": "https://www.linkedin.com",
-      "blog": "https://github.com/AhmetSabriGuven"
+      "linkedin": "https://www.linkedin.com/in/ahmetsabriguven/"
     },
     "feedback": { "offline": "The remote service is unavailable; the portfolio continues with local data." }
   }

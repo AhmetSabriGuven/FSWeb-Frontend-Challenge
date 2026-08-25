@@ -5,8 +5,8 @@ export default function ProjectCard({ project, labels }) {
     <article className="project-card">
       <ThemeAsset
         className="project-card__image"
-        light={`/assets/${project.image}-light.png`}
-        dark={`/assets/${project.image}-dark.png`}
+        light={`/assets/${project.image}${project.themeAwareImage === false ? '' : '-light'}.png`}
+        dark={`/assets/${project.image}${project.themeAwareImage === false ? '' : '-dark'}.png`}
         alt={project.imageAlt}
       />
       <h3>{project.name}</h3>
@@ -16,7 +16,7 @@ export default function ProjectCard({ project, labels }) {
       </ul>
       <div className="project-card__links">
         <a href={project.github} target="_blank" rel="noreferrer">GitHub</a>
-        <a href={project.site} target="_blank" rel="noreferrer">{labels.viewSite}</a>
+        {project.site && <a href={project.site} target="_blank" rel="noreferrer">{labels.viewSite}</a>}
       </div>
     </article>
   );
