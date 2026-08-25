@@ -1,0 +1,184 @@
+{
+  "tr": {
+    "nav": { "skills": "Yetenekler", "projects": "Projeler", "hire": "İletişim" },
+    "controls": {
+      "label": "Görünüm tercihleri",
+      "darkMode": "DARK MODE",
+      "lightMode": "LIGHT MODE",
+      "switchToEnglishSuffix": "’E GEÇ",
+      "switchToTurkishSuffix": "’YE GEÇ"
+    },
+    "accessibility": {
+      "skipToContent": "Ana içeriğe geç",
+      "home": "Ana sayfa",
+      "primaryNavigation": "Ana navigasyon"
+    },
+    "hero": {
+      "name": "Ahmet Sabri",
+      "title": ["Yaratıcı düşünür", "Minimalizm tutkunu"],
+      "intro": "Merhaba, ben Ahmet Sabri. Sağlam, ölçeklenebilir ve erişilebilir frontend ürünleri geliştiriyorum. Güçlü kullanıcı deneyimlerini temiz kodla buluşturan bir geliştirici arıyorsanız, tanışalım.",
+      "hire": "İletişim",
+      "imageAlt": "Dizüstü bilgisayarıyla çalışan bir yazılımcı"
+    },
+    "skills": {
+      "title": "Yetenekler",
+      "items": [
+        { "name": "JavaScript", "description": "Modern ES özellikleri, asenkron veri akışı ve sürdürülebilir uygulama mimarileri." },
+        { "name": "React.js", "description": "Yeniden kullanılabilir bileşenler, Context API, custom hook’lar ve test edilebilir arayüzler." },
+        { "name": "Node.js", "description": "REST servisleri, araç geliştirme ve frontend ihtiyaçlarını destekleyen hafif backend çözümleri." }
+      ]
+    },
+    "profile": {
+      "title": "Profil",
+      "subtitle": "Profil",
+      "facts": [
+        { "label": "Odak", "value": "Frontend Engineering" },
+        { "label": "Konum", "value": "Türkiye" },
+        { "label": "Eğitim", "value": "Workintech Frontend Programı" },
+        { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
+      ],
+      "aboutTitle": "Hakkımda",
+      "about": [
+        "Kullanışlı ürünlerin iyi tasarım, anlaşılır içerik ve sağlam mühendisliğin birleşiminden doğduğuna inanıyorum.",
+        "Responsive arayüzler, erişilebilirlik, tasarım sistemleri ve temiz veri akışı üzerinde çalışmaktan keyif alıyorum."
+      ]
+    },
+    "projects": {
+      "title": "Projeler",
+      "technologies": "Kullanılan teknolojiler",
+      "viewSite": "Siteyi Gör",
+      "items": [
+        {
+          "name": "Workintech",
+          "description": "React bileşen mimarisi, tema ve dil yönetimiyle geliştirilen kişisel portfolyo deneyimi.",
+          "stack": ["react", "context", "axios"],
+          "image": "project-workintech",
+          "imageAlt": "Workintech projesinin ekran görüntüsü",
+          "github": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge",
+          "site": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge"
+        },
+        {
+          "name": "Random Jokes",
+          "description": "Uzak bir API’den veri alan, yüklenme ve hata durumlarını yöneten responsive React uygulaması.",
+          "stack": ["react", "redux", "axios"],
+          "image": "project-jokes",
+          "imageAlt": "Random Jokes projesinin ekran görüntüsü",
+          "github": "https://github.com/AhmetSabriGuven",
+          "site": "https://github.com/AhmetSabriGuven"
+        },
+        {
+          "name": "Journey",
+          "description": "Modern kart yapıları ve tekrar kullanılabilir UI bileşenleriyle oluşturulan ürün tanıtım arayüzü.",
+          "stack": ["react", "router", "css"],
+          "image": "project-journey",
+          "imageAlt": "Journey projesinin ekran görüntüsü",
+          "github": "https://github.com/AhmetSabriGuven",
+          "site": "https://github.com/AhmetSabriGuven"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Bir sonraki ürününüzde birlikte çalışalım.",
+      "email": "hello@ahmetsabri.dev",
+      "blog": "Kişisel Blog",
+      "socialLabel": "Sosyal bağlantılar"
+    },
+    "links": {
+      "github": "https://github.com/AhmetSabriGuven",
+      "linkedin": "https://www.linkedin.com",
+      "blog": "https://github.com/AhmetSabriGuven"
+    },
+    "feedback": { "offline": "Uzak servis kullanılamıyor; portfolyo yerel verilerle çalışmaya devam ediyor." }
+  },
+  "en": {
+    "nav": { "skills": "Skills", "projects": "Projects", "hire": "Hire me" },
+    "controls": {
+      "label": "Display preferences",
+      "darkMode": "DARK MODE",
+      "lightMode": "LIGHT MODE",
+      "switchToEnglishSuffix": "’E GEÇ",
+      "switchToTurkishSuffix": "’YE GEÇ"
+    },
+    "accessibility": {
+      "skipToContent": "Skip to main content",
+      "home": "Home",
+      "primaryNavigation": "Primary navigation"
+    },
+    "hero": {
+      "name": "Ahmet Sabri",
+      "title": ["Creative thinker", "Minimalism lover"],
+      "intro": "Hi, I’m Ahmet Sabri. I craft solid, scalable and accessible frontend products. If you are looking for a developer who combines clean code with thoughtful user experiences, let’s work together.",
+      "hire": "Hire me",
+      "imageAlt": "A developer working on a laptop"
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        { "name": "JavaScript", "description": "Modern ES features, asynchronous data flows and maintainable application architecture." },
+        { "name": "React.js", "description": "Reusable components, Context API, custom hooks and interfaces designed for testing." },
+        { "name": "Node.js", "description": "REST services, developer tooling and lightweight backend solutions supporting frontend products." }
+      ]
+    },
+    "profile": {
+      "title": "Profile",
+      "subtitle": "Profile",
+      "facts": [
+        { "label": "Focus", "value": "Frontend Engineering" },
+        { "label": "Location", "value": "Türkiye" },
+        { "label": "Education", "value": "Workintech Frontend Program" },
+        { "label": "Preferred Role", "value": "Frontend, UI" }
+      ],
+      "aboutTitle": "About Me",
+      "about": [
+        "I believe useful products emerge where thoughtful design, clear content and reliable engineering meet.",
+        "I enjoy working on responsive interfaces, accessibility, design systems and predictable data flows."
+      ]
+    },
+    "projects": {
+      "title": "Projects",
+      "technologies": "Technologies used",
+      "viewSite": "View Site",
+      "items": [
+        {
+          "name": "Workintech",
+          "description": "A personal portfolio experience built with React component architecture plus theme and language management.",
+          "stack": ["react", "context", "axios"],
+          "image": "project-workintech",
+          "imageAlt": "Screenshot of the Workintech project",
+          "github": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge",
+          "site": "https://github.com/AhmetSabriGuven/FSWeb-Frontend-Challenge"
+        },
+        {
+          "name": "Random Jokes",
+          "description": "A responsive React application that fetches remote data and handles loading and error states.",
+          "stack": ["react", "redux", "axios"],
+          "image": "project-jokes",
+          "imageAlt": "Screenshot of the Random Jokes project",
+          "github": "https://github.com/AhmetSabriGuven",
+          "site": "https://github.com/AhmetSabriGuven"
+        },
+        {
+          "name": "Journey",
+          "description": "A product showcase interface composed with modern cards and reusable UI components.",
+          "stack": ["react", "router", "css"],
+          "image": "project-journey",
+          "imageAlt": "Screenshot of the Journey project",
+          "github": "https://github.com/AhmetSabriGuven",
+          "site": "https://github.com/AhmetSabriGuven"
+        }
+      ]
+    },
+    "footer": {
+      "title": "Let’s work together on your next product.",
+      "email": "hello@ahmetsabri.dev",
+      "blog": "Personal Blog",
+      "socialLabel": "Social links"
+    },
+    "links": {
+      "github": "https://github.com/AhmetSabriGuven",
+      "linkedin": "https://www.linkedin.com",
+      "blog": "https://github.com/AhmetSabriGuven"
+    },
+    "feedback": { "offline": "The remote service is unavailable; the portfolio continues with local data." }
+  }
+}
